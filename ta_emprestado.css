@@ -1,0 +1,159 @@
+body {
+	font-family:"Open Sans", sans-serif;
+	width:100%;
+}
+
+.centralizado {
+	width:50%;
+	margin:auto;
+	padding-bottom:50px;
+}
+
+table {
+	width:100%;
+}
+
+.index {
+	text-align:center;
+	padding-bottom:50px;
+	font-size:14px;
+}
+
+.erro {
+	background-color:#A11C1E;
+}
+
+.sucesso {
+	text-align:center;
+	vertical-align:middle;
+	padding-bottom:50px;
+	font-size:20px;
+	background-color:#7fc8ca;
+	color:white;
+}
+
+.direita {
+	text-align:right;
+	width:1%;
+	white-space:nowrap;
+	padding-right:30px;
+	vertical-align:bottom;
+}
+
+.esquerda {
+	text-align:left;
+	width:1%;
+	white-space:nowrap;
+	padding-right:20px;
+}
+	
+.index_field {
+	text-align:center;
+	padding-right:5px;
+	font-size:14px;
+	width:40%;
+}
+
+.index_submit {
+	text-align:center;
+	vertical-align:middle;
+	font-size:14px;
+	width:20%;
+}
+
+input {
+	outline:none;
+	border:none;
+	background-color:#f7f7f7;
+	text-align:left;
+	padding-left:5px;
+	line-height:24px;
+	width:87%;
+}
+
+input.botao {
+	border:1px solid;
+	background:none;
+	margin-right:30px;
+	width:80%;
+	text-align:center;
+	vertical-align:middle;
+}
+
+input.novo {
+	background-color:#fdebce;
+}
+
+#esqueci, #cadastro {
+	display:none;
+}
+
+.link {
+	font-size:10px;
+	font-weight:bold;
+	text-decoration:none;
+	margin-left:2%;
+	text-align:left;
+	padding-left:5px;
+	color:#999;
+}	
+
+.me_cadastrar {
+	background-color:#fdebce;
+	padding:2px;
+	width:50%;
+	text-align:left;
+	margin-left:5%;
+}
+	
+.main {
+	margin-top:50px;
+	margin-bottom:50px;
+	border-left: 20px solid #f49a0a;
+	border-spacing: 0;
+}
+
+.td_main {
+	border-left: 1px solid black;
+	border-bottom: 1px dotted black;
+	border-collapse: collapse;
+	border-spacing: 0;
+	padding-left: 5px;
+}
+
+.th_main {
+	text-align:left;
+	border-left: 1px solid #f49a0a;
+	border-bottom: 1px solid #f49a0a;
+	border-collapse:collapse;
+	border-spacing: 0;
+	padding-left: 5px;
+}
+
+.cabecalho {
+	color:#f49a0a;
+	font-weight:bold;
+}
+	
+.rodape {
+	width:60%;
+	margin:auto;
+	padding-top:50px;
+}	
+	
+.rodape_item {
+	font-size:18px;
+	padding:5px;
+	text-align:center;
+	width:1%;
+	white-space:nowrap;
+}
+
+.marcador {
+	font-size:24px;
+	font-weight:bolder;
+	padding:5px;
+	text-align:center;
+	vertical-align:middle;
+	width:1%;
+}

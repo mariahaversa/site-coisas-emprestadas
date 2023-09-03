@@ -1,0 +1,88 @@
+<!doctype html>
+
+<html>
+
+	<head>
+		<title> tá emprestado - home </title>
+		<link rel="stylesheet" href="ta_emprestado.css">
+		<link rel="icon" href="icon.png">
+	</head>
+	
+	<body>
+		
+		<table> <!--se logado-->
+			<tr>
+				<h1> <td rowspan="2"> <a> <img src="logo_180.png" alt="logo tá emprestado"> </a> </td> </h1>
+				<td class="direita"> Olá, Mariah </td>
+				<td class="direita"> <a class="link" href="#"> >>> meus dados </a> </td>
+			</tr>
+			<tr>
+				<td class="direita"> </td>
+				<td class="direita" style="vertical-align:top;"> <a class="link" href="#"> >>> logout </a> </td>
+			</tr>
+		</table>
+
+		<table class="main">	
+			<tr class="cabecalho">
+				<th class="th_main"> o quê? </th>
+				<th class="th_main"> pra quem? </th>
+				<th class="th_main"> celular </th>
+				<th class="th_main"> e-mail </th>
+				<th class="th_main"> foi </th>
+				<th class="th_main"> volta </th>
+			</tr>
+			
+			<tr>
+				<td class='td_main'>CD Radiohead</td>
+				<td class='td_main'>Ed Gomes</td>
+				<td class='td_main'>31 999999999</td>
+				<td class='td_main'>ed_gomes@gmail.com</td>
+				<td class='td_main'>02/08/2023</td>
+				<td class='td_main'>01/10/2023</td>
+				<td> 
+					<form name='voltou'> 
+						<input type='hidden' name='id'>		
+						<input type='submit' class='botao' name='voltou' value='voltou!'> 
+					</form> 
+				</td> <!--registra a data da devolução e tira o item dessa lista-->
+			</tr>
+			
+			<form name="novo_item">
+				<tr> 
+					<td> <input type="hidden" name="id"></td> 
+					<td> <input type="hidden" name="id_usuario"> </td> 
+				</tr>
+				<tr>
+					<td> <input class="novo" type="text" name="item" placeholder="novo item"> </td>
+					<td> <input class="novo" type="text" name="pra_quem" placeholder="novo item"> </td>
+					<td> <input class="novo" type="text" name="celular" placeholder="novo item"> </td>
+					<td> <input class="novo" type="email" name="email" placeholder="novo item"> </td>
+					<td> <input class="novo" type="date" name="data_emprestimo" placeholder="novo item"> </td>
+					<td> <input class="novo" type="date" name="data_prog_retorno" placeholder="novo item"> </td>
+					<td> <input class="novo, botao" type="submit" name="salvar" value="salvar"> </td>
+				</tr>
+			</form>
+		</table>
+			
+		<table name="menu2">
+			<tr>
+				<td class="esquerda"> <a href="#"> exportar lista </a> </td>
+				<td class="marcador"> | </td>				
+				<td class="esquerda"> <a style="padding-left:20px;" href="#"> arquivo de itens devolvidos </a> </td>
+				<td> </td>
+			</tr>
+		</table>
+
+		<div class="centralizado"> 
+            <table class="rodape">
+                <tr>
+                    <td class="rodape_item"> <a href="#"> o que é esse site? </a> </td>
+                    <td class="marcador"> | </td>
+                    <td class="rodape_item"> <a href="#" target="blank"> fazer contato </a> </td>
+                </tr>
+            </table>
+		</div>
+
+	</body>
+
+</html>
